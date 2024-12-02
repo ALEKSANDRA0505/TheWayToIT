@@ -1,0 +1,90 @@
+.test
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*h1
+{
+    text-align: center;
+}*/
+
+.question
+{
+    font-size: 3vw;
+    color: #d9c2f3;
+    padding-top: 3vw;
+}
+
+#answer-buttons
+{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    /*gap: 10px;*/
+    padding-bottom: 8vw;
+}
+
+
+.btn
+{
+
+    font-size: 1.5vw;
+    font-weight: 400;
+    border-radius: 3vw;
+    /*padding: 20 px 25 px;*/
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif; /*задаем семейсиво шрифтов и размер*/
+    color: #fdfcff;/*цвет текста*/
+    background-color: black;/*цвет кнопки*/
+    border: none;/*убираем границу у кнопки*/
+    cursor: pointer;/*принаведении на кнопку мышка будет в виде указателя*/
+    box-shadow: 0 7px 19px #d9c2f3;/*рисуется тень 0 - отступ по горизонтали 
+    16 - отступ по вертикали
+    36 - размытость тени*/
+    height: 4vw;
+}
+
+button:hover
+{
+    color: black;/*цвет текста*/
+    background-color: white;/*цвет кнопки*/
+    box-shadow: 0 7px 19px #a472df;/*рисуется тень */
+}
+
+#progress-container
+{
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100vw;
+    height: 10px;
+    background-color: black;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+#progress-bar
+{
+    height: 100%;
+    width: 0;
+    background-color: #a472df;
+    transition: width 0.3s ease;
+}
+
+#progress-percentage
+{
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #d9c2f3;
+}

@@ -1,0 +1,69 @@
+.about{
+    background: url(img/Desktop.png.webp);
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: #d9c2f3;
+    padding-top: 22vw;
+    padding-bottom: 7vw;
+    text-shadow: #582d9c 0 0 100px;
+    text-align: center;
+}
+
+.about h1{
+    font-size: 5vw;
+    margin-bottom: 1px;
+}
+
+h2{
+    font-size: 3vw;
+    padding-bottom: 0%;
+}
+
+.about2{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Raleway', sans-serif;
+    color: #d9c2f3;
+    text-align: center;
+    padding-bottom: 15vw;
+    padding-top: 5vw;
+}
+
+.girl__image{
+    size: 40vw;
+    padding-top: 0%;
+    padding-bottom: 5vw;
+}
+.about__button{
+    font-size: 2.5vw;
+    font-weight: 600;
+    border-radius: 3vw;
+    /*padding: 20 px 25 px;*/
+    margin-top: 20px;
+    font-family: 'Raleway', sans-serif; /*задаем семейсиво шрифтов и размер*/
+    color: #fdfcff;/*цвет текста*/
+    background-color: #752dfc;/*цвет кнопки*/
+    border: none;/*убираем границу у кнопки*/
+    cursor: pointer;/*принаведении на кнопку мышка будет в виде указателя*/
+    box-shadow: 0 16px 36px rgba(77, 10, 153, 0.336);/*рисуется тень 0 - отступ по горизонтали 
+    16 - отступ по вертикали
+    36 - размытость тени*/
+    height: 5vw;
+}
+
+button:hover{
+    color: #752dfc;
+    background-color: #fdfcff;
+    box-shadow: 0 16px 36px rgba(133, 10, 204, 0.274);
+    transition: 0.3s;
+    transition: ease-in;
+}
+
